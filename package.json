@@ -1,0 +1,22 @@
+{
+  "name": "itech-cert-plinko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billVladimir/itech-plinko.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billVladimir/itech-plinko/issues"
+  },
+  "homepage": "https://github.com/billVladimir/itech-plinko#readme",
+  "dependencies": {
+    "chance": "^1.1.8"
+  }
+}
