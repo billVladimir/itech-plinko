@@ -1,5 +1,5 @@
 const chance = require("chance")();
-const { generateResultNumbers } = require("./random");
+const { generateResultNumbers2 } = require("./random");
 
 
 /**
@@ -10,7 +10,7 @@ class PlinkoResult {
     constructor() { }
 
     getResult(rSeed, uSeed, rows) {
-        const numbers = generateResultNumbers(rSeed, uSeed);
+        const numbers = generateResultNumbers2(rSeed, uSeed);
         const result = numbers
             .slice(0, rows)
             .reduce((acc, n) => acc + n, 0);
